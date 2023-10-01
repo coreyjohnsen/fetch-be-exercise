@@ -1,0 +1,21 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+The main reason I chose ExpressJS, Node.js, and Javascript for the project was because of the limited scope of the exercise. Since there are only a few endpoints
+that need to do relatively simple jobs, a lightweight web framework like ExpressJS was best because of it's ease of use and quick setup. Also, when developing the endpoints,
+it was easy to restart the API and test the new functionality quickly. I've also used ExpressJS to create web applications before, so the framework was familiar for me and I could
+comfortably complete the requirements with it.
+
+2. What are the advantages and disadvantages of your solution?
+
+One strength of this solution is that ExpressJS is lightweight and easy to use which makes it ideal for a simple API such as the one in the exercise. The solution also
+uses localStorage as the method of storing the user's information, which ensures that a user's points are persisted after the server stops. 
+The solution was also built to be efficient, as adding points, removing points, and getting the balance are all O(n) operations while also using as little space as possible. 
+One of the main limitations of this solution, however, is that localStorage is client-sided which means it is not as secure as other methods of storing the data. Additionally, for all 3 endpoints, 
+the program must read from and/or write to the files in localStorage which could limit the speed of the calls. However, for the scope of this exercise, localStorage has all the needed functionality.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite project so far was creating an application that would monitor PC part prices and send a notification when a part dropped below a set price. I enjoyed this project
+because when I was looking to build a new PC, it helped me solve a real problem and ended up notifying me about a deal that I ended up buying. It was my first time using webscraping for a real
+project, so learning how to best use python webscraping libraries was challenging. Also, creating a GUI that lets the user configure the monitoring and interact with the program was difficult since I
+hadn't created a GUI that wasn't web based before.
